@@ -71,7 +71,7 @@ export default function Home() {
               Secure your Spot & <br /> Mark the Date!
             </div>
             <div className="text-xl">
-              Don't miss out on this essential Pediatrics Healthcare Event in
+              Don&apos;t miss out on this essential Pediatrics Healthcare Event in
               Tanzania! Join us for an insightful day filled with expert talks,
               interactive sessions, and networking opportunities with leading
               professionals in the field. Secure your spot now and be part of a
