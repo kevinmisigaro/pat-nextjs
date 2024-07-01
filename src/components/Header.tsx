@@ -2,7 +2,7 @@ import Link from "next/link";
 
 function Header() {
   return (
-    <div className="navbar bg-white text-black">
+    <div className="navbar bg-[#202abd] text-white">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -44,7 +44,7 @@ function Header() {
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl">PAT Congress</a>
+        <img src="/images/pat-blue-logo.png" className="w-[80px]" />
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1 font-semibold">
@@ -57,7 +57,7 @@ function Header() {
         </ul>
       </div>
       <div className="navbar-end">
-        <Link href={"http://127.0.0.1:8000"} className="font-semibold">
+        <Link href={"http://127.0.0.1:8000"} className="font-semibold hover:underline">
           Register
         </Link>
       </div>
