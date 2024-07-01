@@ -2,7 +2,8 @@
 
 import DetailsCard from "@/components/DetailsCard";
 import RegistrationCard from "@/components/RegistrationCard";
-import { FaLocationDot, FaCalendarDays, FaCheck } from "react-icons/fa6";
+import { FaLocationDot, FaCalendarDays, FaCheck} from "react-icons/fa6";
+import { FaAnglesRight } from "react-icons/fa6";
 
 export default function Home() {
   return (
@@ -27,7 +28,7 @@ export default function Home() {
             <div className="flex items-center gap-x-5 justify-center mt-10">
               <button className="btn btn-primary">FIND OUT MORE</button>
               <button className="btn bg-[#f29719] border-[#f29719] hover:border-[#f29719] hover:text-[#f29719]">
-                REGISTER NOW
+               <FaAnglesRight /> REGISTER NOW
               </button>
             </div>
           </div>
