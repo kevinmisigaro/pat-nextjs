@@ -18,12 +18,11 @@ export default function Home() {
         <div className="hero-content text-neutral-content text-center">
           <div className="max-w-4xl text-white py-10">
             <h1 className="mb-3 text-4xl font-bold">
-              ANNUAL GENERAL MEETING & SCIENTIFIC CONFERENCE OF THE PAEDIATRIC
-              ASSOCIATION OF TANZANIA
+              24<sup>TH</sup> PAT SCIENTIFIC CONFERENCE AND ANNUAL GENERAL
+              MEETING
             </h1>
-            <p className="mb-3 text-xl mt-16">
-              THEME: INTERSECTORAL COLLABORATION IN ADVANCING CHILD HEALTH AND
-              DEVELOPMENT
+            <p className="mb-3 text-xl mt-16 uppercase">
+              THEME: Foundation of life: improving health outcomes in children
             </p>
             <div className="flex items-center gap-x-5 justify-center mt-10">
               <button className="btn btn-primary">FIND OUT MORE</button>
@@ -40,8 +39,8 @@ export default function Home() {
         <div className="flex flex-col md:flex-row gap-y-10 md:gap-y-0 items-center md:items-start justify-center gap-x-32 bg-[#f29719] max-w-fit py-8 px-20">
           <div className="basis-1/3 flex flex-col gap-y-2 items-center justify-center">
             <FaLocationDot className="text-6xl" />
-            <div className="font-bold text-2xl">Dodoma</div>
-            <div className="text-base">Conference Venue</div>
+            <div className="font-bold text-2xl">Mbeya</div>
+            <div className="text-base">EDEN HIGHLANDS HOTEL</div>
           </div>
           <div className="basis-1/3 flex flex-col gap-y-2 items-center justify-center">
             <FaCalendarDays className="text-6xl" />
@@ -53,22 +52,30 @@ export default function Home() {
           <div className="basis-1/3 flex flex-col gap-y-2 items-center justify-center">
             <FaCalendarDays className="text-6xl" />
             <div className="font-bold text-2xl text-center">
-              1<sup>st</sup> - 3<sup>rd</sup> October
+              17<sup>th</sup> - 19<sup>th</sup> October
             </div>
             <div className="text-base">Event date</div>
           </div>
         </div>
       </div>
 
-      <div className="px-5 md:px-20">
+      <div
+        className="px-5 md:px-20 bg-right bg-contain bg-no-repeat"
+        style={{
+          backgroundImage: "url('/images/female-doc-left.png')",
+        }}
+      >
         <div className="flex items-stretch">
           <div className="py-20 basis-2/3 px-10">
             <div className="font-black text-5xl mb-10">
               Secure your Spot & <br /> Mark the Date!
             </div>
             <div className="text-xl">
-              Be a catalyst for change in Paediatric healthcare in Tanzania.
-              Join us at the Paediatric Association of Tanzania Conference 2024.
+              Don't miss out on this essential Pediatrics Healthcare Event in
+              Tanzania! Join us for an insightful day filled with expert talks,
+              interactive sessions, and networking opportunities with leading
+              professionals in the field. Secure your spot now and be part of a
+              community dedicated to advancing pediatric care. Make sure to mark the date on your calendar!
             </div>
             <div className="mt-6">
               <div className="grid grid-flow-col gap-x-10 text-center auto-cols-max">
@@ -86,12 +93,12 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="btn bg-[#f29719] hover:bg-[#f29719] text-white border-[#f29719] mt-10">
+            <div className="btn bg-[#202abd] hover:bg-[#f29719] text-white border-[#f29719] mt-10">
               FIND OUT MORE
             </div>
           </div>
           <div className="basis-1/3 bg">
-            <img src="/images/doctor-mask-3.png" className="w-full" />
+            {/* <img src="/images/female-doc-left.png" className="w-full" /> */}
           </div>
         </div>
       </div>
@@ -102,9 +109,8 @@ export default function Home() {
 
           <div className="flex flex-col gap-y-10 justify-center my-10 mx-32">
             <DetailsCard title="THEME" txtColor="black" bgColor="#ffdfca">
-              <h4 className="text-xl font-semibold">
-                INTERSECTORAL COLLABORATION IN ADVANCING CHILD HEALTH AND
-                DEVELOPMENT
+              <h4 className="text-xl font-semibold uppercase">
+                Foundation of life: improving health outcomes in children
               </h4>
             </DetailsCard>
 
@@ -176,22 +182,60 @@ export default function Home() {
 
       <div className="bg-[#3b3b3b] py-20 px-20">
         <div className="text-center text-white text-3xl font-bold">
-          EXPLORE THE CITY OF DODOMA
+          EXPLORE THE CITY OF MBEYA
         </div>
-        <div className="my-10 text-center text-white">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit
-          voluptatem ut delectus! <br /> Explicabo consequatur deleniti maxime
-          quo eum nemo alias maiores vero! <br /> Quisquam ipsum exercitationem
-          incidunt. Nihil doloribus perspiciatis nulla.
+        <div className="flex justify-center ">
+          <div className="my-10 text-center text-white max-w-4xl">
+            Nestled in Tanzania's southwestern highlands, Mbeya is a vibrant
+            city known for its stunning landscapes and warm hospitality.
+            Visitors can enjoy breathtaking views of rolling hills, lush
+            valleys, and majestic mountains. The city's cool climate supports
+            fertile coffee and tea plantations, perfect for exploration. Mbeya
+            also serves as a gateway to natural attractions like Ngozi Crater
+            Lake and Mbeya Peak. Rich in culture, the city features lively
+            markets, traditional music, and dance. Whether you're an adventurer,
+            nature lover, or cultural enthusiast, Mbeya offers an unforgettable
+            experience in the heart of Tanzania.
+          </div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-y-7">
-          <img src="/images/hills.jpg" className="max-w-xs rounded-md" />
-          <img src="/images/hills.jpg" className="max-w-xs rounded-md" />
-          <img src="/images/hills.jpg" className="max-w-xs rounded-md" />
-          <img src="/images/hills.jpg" className="max-w-xs rounded-md" />
-          <img src="/images/hills.jpg" className="max-w-xs rounded-md" />
-          <img src="/images/hills.jpg" className="max-w-xs rounded-md" />
+          <div
+            className="max-w-sm h-52 bg-center bg-cover"
+            style={{
+              backgroundImage: "url('/images/mbeya/mbeya-1.jpg')",
+            }}
+          />
+          <div
+            className="max-w-sm h-52 bg-center bg-cover"
+            style={{
+              backgroundImage: "url('/images/mbeya/mbeya-2.jpg')",
+            }}
+          />
+          <div
+            className="max-w-sm h-52 bg-center bg-cover"
+            style={{
+              backgroundImage: "url('/images/mbeya/mbeya-3.jpg')",
+            }}
+          />
+          <div
+            className="max-w-sm h-52 bg-center bg-cover"
+            style={{
+              backgroundImage: "url('/images/mbeya/mbeya4.jpeg')",
+            }}
+          />
+          <div
+            className="max-w-sm h-52 bg-center bg-cover"
+            style={{
+              backgroundImage: "url('/images/mbeya/mbeya-5.jpg')",
+            }}
+          />
+          <div
+            className="max-w-sm h-52 bg-center bg-cover"
+            style={{
+              backgroundImage: "url('/images/mbeya/mbeya-6.jpeg')",
+            }}
+          />
         </div>
       </div>
     </div>
