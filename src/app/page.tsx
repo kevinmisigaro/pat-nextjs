@@ -186,14 +186,14 @@ export default function Home() {
         </div>
         <div className="flex justify-center ">
           <div className="my-10 text-center text-white max-w-4xl">
-            Nestled in Tanzania's southwestern highlands, Mbeya is a vibrant
+            Nestled in Tanzania&apos;s southwestern highlands, Mbeya is a vibrant
             city known for its stunning landscapes and warm hospitality.
             Visitors can enjoy breathtaking views of rolling hills, lush
-            valleys, and majestic mountains. The city's cool climate supports
+            valleys, and majestic mountains. The city&apos;s cool climate supports
             fertile coffee and tea plantations, perfect for exploration. Mbeya
             also serves as a gateway to natural attractions like Ngozi Crater
             Lake and Mbeya Peak. Rich in culture, the city features lively
-            markets, traditional music, and dance. Whether you're an adventurer,
+            markets, traditional music, and dance. Whether you&apos;re an adventurer,
             nature lover, or cultural enthusiast, Mbeya offers an unforgettable
             experience in the heart of Tanzania.
           </div>
