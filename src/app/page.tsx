@@ -1,11 +1,16 @@
 "use client";
 
+import Countdown from "@/components/Countdown";
 import DetailsCard from "@/components/DetailsCard";
 import RegistrationCard from "@/components/RegistrationCard";
 import { FaLocationDot, FaCalendarDays, FaCheck} from "react-icons/fa6";
 import { FaAnglesRight } from "react-icons/fa6";
 
 export default function Home() {
+
+  const currentYear = new Date().getFullYear();
+  const targetDate = new Date(`October 17, ${currentYear} 00:00:00`);
+
   return (
     <div>
       {/* Main hero */}
@@ -79,20 +84,7 @@ export default function Home() {
               community dedicated to advancing pediatric care. Make sure to mark the date on your calendar!
             </div>
             <div className="mt-6">
-              <div className="grid grid-flow-col gap-x-10 text-center auto-cols-max">
-                <div className="flex flex-col p-2 bg-[#0f4c15] rounded-box text-white p-6">
-                  <span className="countdown font-mono text-5xl">15</span>
-                  days
-                </div>
-                <div className="flex flex-col p-2 bg-[#0f4c15] rounded-box text-white p-6">
-                  <span className="countdown font-mono text-5xl">10</span>
-                  hours
-                </div>
-                <div className="flex flex-col p-2 bg-[#0f4c15] rounded-box text-white p-6">
-                  <span className="countdown font-mono text-5xl">11</span>
-                  min
-                </div>
-              </div>
+            <Countdown targetDate={targetDate} />
             </div>
             <div className="btn bg-[#202abd] hover:bg-[#f29719] text-white border-[#f29719] mt-10">
               FIND OUT MORE
