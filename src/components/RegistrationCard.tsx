@@ -17,7 +17,7 @@ function RegistrationCard({
         backgroundColor: bgColor,
       }}
     >
-      <div className="font-semibold text-xl">{title}</div>
+      <div className="font-semibold text-xl text-center">{title}</div>
       <div className="py-2">{children}</div>
       <button className="btn bg-black border-black hover:bg-black flex items-center gap-x-3 text-white">
         <FaArrowRight />

@@ -3,11 +3,10 @@
 import Countdown from "@/components/Countdown";
 import DetailsCard from "@/components/DetailsCard";
 import RegistrationCard from "@/components/RegistrationCard";
-import { FaLocationDot, FaCalendarDays, FaCheck} from "react-icons/fa6";
+import { FaLocationDot, FaCalendarDays, FaCheck } from "react-icons/fa6";
 import { FaAnglesRight } from "react-icons/fa6";
 
 export default function Home() {
-
   const currentYear = new Date().getFullYear();
   const targetDate = new Date(`October 17, ${currentYear} 00:00:00`);
 
@@ -33,7 +32,7 @@ export default function Home() {
             <div className="flex items-center gap-x-5 justify-center mt-10">
               <button className="btn btn-primary">FIND OUT MORE</button>
               <button className="btn bg-[#f29719] border-[#f29719] hover:border-[#f29719] hover:text-[#f29719]">
-               <FaAnglesRight /> REGISTER NOW
+                <FaAnglesRight /> REGISTER NOW
               </button>
             </div>
           </div>
@@ -74,17 +73,18 @@ export default function Home() {
         <div className="flex items-stretch">
           <div className="py-20 basis-2/3 px-10">
             <div className="font-black text-5xl mb-10">
-              Secure your Spot & <br /> Mark the Date!
+              Secure your spot & <br /> mark the date!
             </div>
             <div className="text-xl">
-              Don&apos;t miss out on this essential Pediatrics Healthcare Event in
-              Tanzania! Join us for an insightful day filled with expert talks,
-              interactive sessions, and networking opportunities with leading
-              professionals in the field. Secure your spot now and be part of a
-              community dedicated to advancing pediatric care. Make sure to mark the date on your calendar!
+              Don&apos;t miss out on this essential Paediatrics Healthcare Event
+              in Tanzania! Join us for an insightful day filled with expert
+              talks, interactive sessions, and networking opportunities with
+              leading professionals in the field. Secure your spot now and be
+              part of a community dedicated to advancing pediatric care. Make
+              sure to mark the date on your calendar!
             </div>
             <div className="mt-6">
-            <Countdown targetDate={targetDate} />
+              <Countdown targetDate={targetDate} />
             </div>
             <div className="btn bg-[#202abd] hover:bg-[#f29719] text-white border-[#f29719] mt-10">
               FIND OUT MORE
@@ -112,26 +112,86 @@ export default function Home() {
                 <div className="flex items-center gap-x-4">
                   <FaCheck />{" "}
                   <p className="font-semibold">
-                    OVERCOMING THE HARMFUL MIX OF INSECURITY AND POVERTY ON
-                    CHILD HEALTH
+                    Perinatology: Fetal maternal and early newborn care,
+                    Nutrition and breastfeeding, Jaundice management,
+                    Respiratory support, and oxygen toxicity, antimicrobial
+                    resistance and probiotics, Neurodevelopmental care, Kangaroo
+                    mother care
                   </p>
                 </div>
                 <div className="flex items-center gap-x-4">
                   <FaCheck />{" "}
                   <p className="font-semibold">
-                    OVERCOMING THE HARMFUL MIX OF INSECURITY AND POVERTY ON
-                    CHILD HEALTH
+                    Double burden of disease in paediatric population:
+                    Non-communicable diseases, Emerging antimicrobial
+                    resistance, TB/HIV, Nutrition
                   </p>
                 </div>
                 <div className="flex items-center gap-x-4">
                   <FaCheck />{" "}
                   <p className="font-semibold">
-                    OVERCOMING THE HARMFUL MIX OF INSECURITY AND POVERTY ON
-                    CHILD HEALTH
+                    General Paediatrics and Adolescent medicine: Vaccinology,
+                    Early childhood development, Equity and equality to access
+                    health care
+                  </p>
+                </div>
+                <div className="flex items-center gap-x-4">
+                  <FaCheck />{" "}
+                  <p className="font-semibold">
+                    Health system strengthening: Health systems and digital
+                    technologies
+                  </p>
+                </div>
+                <div className="flex items-center gap-x-4">
+                  <FaCheck />{" "}
+                  <p className="font-semibold">
+                    Impact of climatic change and enviromental health
                   </p>
                 </div>
               </div>
             </DetailsCard>
+
+            <div
+      className="py-5 px-10 rounded-md w-full bg-gray-700 text-white"
+    >
+      
+      <h3 className="text-xl font-semibold mb-4">Rules for Submission of Abstracts</h3>
+      <p className="mb-2">
+        Abstracts must be submitted via this website link <a href="https://pat.paediatrics.or.tz/" className="text-blue-500">pat.paediatrics.or.tz</a>. Abstracts submitted via email will not be considered.
+      </p>
+      <p className="mb-2">
+        Please read the submission instructions before submitting an abstract.
+      </p>
+      <p className="mb-2">
+        The presenting author is required to ensure that all co-authors are aware of the contents of the abstract before submission.
+      </p>
+      <p className="mb-2">
+        All abstracts should be submitted and presented in English language.
+      </p>
+      <p className="mb-2">
+        Please note that the submitting author will receive all correspondence about the abstract, so we advise the submitting author’s details entered should be the same details as those of the presenting author.
+      </p>
+      <p className="mb-4">
+        You will receive a confirmation email once you have successfully submitted an abstract. Please contact us via phone number: xxxx if you experience any difficulties during submission.
+      </p>
+      <h3 className="text-xl font-semibold mt-10 mb-2">Submission Instructions</h3>
+      <p className="mb-2">
+        Before you begin the submission process, kindly review the following information:
+      </p>
+      <ul className="list-disc list-inside mb-4 ml-5">
+        <li>Abstract topic – abstracts must be allocated to the respective track and sub-themes.</li>
+        <li>Presenting author's contact details (E-mail address, mobile phone number)</li>
+        <li>Author and co-authors' details (Full first and family name(s); Affiliation details: department, institution/hospital, city, country).</li>
+        <li>Abstract text – limited to 300 words; Format – Microsoft Word; Font – Arial 10 points; Paragraph line spacing – Single.</li>
+        <li>The abstract should not contain tables, figures, and references.</li>
+        <li>Abstract must be submitted with the following sections: Introduction, Objectives, Methodology, Results, and Conclusion.</li>
+        <li>Please indicate your preferred mode of (Oral or Poster) presentation in case your abstract is accepted. (Note that the committee will have the final decision on the mode of presentation)</li>
+      </ul>
+      <h3 className="text-xl font-semibold mt-10 mb-2">Abstract Selection and Presentation</h3>
+      <p className="mb-2">
+        The Scientific committee will review all submitted abstracts and will notify the submitting author regarding abstract acceptance status. If accepted, details of the presentation schedule will be sent to the submitting author.
+      </p>
+    </div>
           </div>
         </div>
       </div>
@@ -149,25 +209,32 @@ export default function Home() {
           <span className="underline">1st October 2024 </span>
         </p>
 
-        <div className="flex flex-col md:flex-row gap-y-10 md:gap-y-0 items-center justify-center gap-x-10 mt-10">
-          <RegistrationCard title="Members" bgColor="#81dd8d">
+        <div className="grid grid-cols-1 md:grid-cols-2 place-items-center gap-10 items-center justify-center mt-10">
+          <RegistrationCard title="PAT Members" bgColor="#81dd8d">
             <div className="flex flex-col gap-y-2 items-center text-base">
-              <p>Early Bird: TZS 90,000 </p>
-              <p>Late/on-site: TZS 100,000</p>
+              <p>Early Bird: TZS 120,000 </p>
+              <p>Late/on-site: TZS 150,000</p>
             </div>
           </RegistrationCard>
 
-          <RegistrationCard title="Students" bgColor="#dbca7b">
+          <RegistrationCard title={"Students, nurses, allied health care workers"} bgColor="#dbca7b">
             <div className="flex flex-col gap-y-2 items-center text-base">
-              <p>Early Bird: TZS 90,000 </p>
+              <p>Early Bird: TZS 80,000 </p>
               <p>Late/on-site: TZS 100,000</p>
             </div>
           </RegistrationCard>
 
           <RegistrationCard title="International Delegates" bgColor="#fabebf">
             <div className="flex flex-col gap-y-2 items-center text-base">
-              <p>Early Bird: $100 </p>
-              <p>Late/on-site: $150</p>
+              <p>Early Bird: 200,000 </p>
+              <p>Late/on-site: 250,000</p>
+            </div>
+          </RegistrationCard>
+
+          <RegistrationCard title="Associate Members" bgColor="#81dd8d">
+            <div className="flex flex-col gap-y-2 items-center text-base">
+              <p>Early Bird: 50,000 </p>
+              <p>Late/on-site: 80,000</p>
             </div>
           </RegistrationCard>
         </div>
@@ -179,16 +246,16 @@ export default function Home() {
         </div>
         <div className="flex justify-center ">
           <div className="my-10 text-center text-white max-w-4xl">
-            Nestled in Tanzania&apos;s southwestern highlands, Mbeya is a vibrant
-            city known for its stunning landscapes and warm hospitality.
+            Nestled in Tanzania&apos;s southwestern highlands, Mbeya is a
+            vibrant city known for its stunning landscapes and warm hospitality.
             Visitors can enjoy breathtaking views of rolling hills, lush
-            valleys, and majestic mountains. The city&apos;s cool climate supports
-            fertile coffee and tea plantations, perfect for exploration. Mbeya
-            also serves as a gateway to natural attractions like Ngozi Crater
-            Lake and Mbeya Peak. Rich in culture, the city features lively
-            markets, traditional music, and dance. Whether you&apos;re an adventurer,
-            nature lover, or cultural enthusiast, Mbeya offers an unforgettable
-            experience in the heart of Tanzania.
+            valleys, and majestic mountains. The city&apos;s cool climate
+            supports fertile coffee and tea plantations, perfect for
+            exploration. Mbeya also serves as a gateway to natural attractions
+            like Ngozi Crater Lake and Mbeya Peak. Rich in culture, the city
+            features lively markets, traditional music, and dance. Whether
+            you&apos;re an adventurer, nature lover, or cultural enthusiast,
+            Mbeya offers an unforgettable experience in the heart of Tanzania.
           </div>
         </div>
 
