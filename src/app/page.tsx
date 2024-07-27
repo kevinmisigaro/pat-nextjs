@@ -180,8 +180,8 @@ export default function Home() {
       </p>
       <ul className="list-disc list-inside mb-4 ml-5">
         <li>Abstract topic – abstracts must be allocated to the respective track and sub-themes.</li>
-        <li>Presenting author's contact details (E-mail address, mobile phone number)</li>
-        <li>Author and co-authors' details (Full first and family name(s); Affiliation details: department, institution/hospital, city, country).</li>
+        <li>Presenting author&apos;s contact details (E-mail address, mobile phone number)</li>
+        <li>Author and co-authors&apos; details (Full first and family name(s); Affiliation details: department, institution/hospital, city, country).</li>
         <li>Abstract text – limited to 300 words; Format – Microsoft Word; Font – Arial 10 points; Paragraph line spacing – Single.</li>
         <li>The abstract should not contain tables, figures, and references.</li>
         <li>Abstract must be submitted with the following sections: Introduction, Objectives, Methodology, Results, and Conclusion.</li>
