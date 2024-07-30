@@ -47,14 +47,14 @@ function Header() {
         <img src="/images/pat-blue-logo.png" className="w-[80px]" />
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1 font-semibold">
+        {/* <ul className="menu menu-horizontal px-1 font-semibold">
           <li>
             <a>HOME</a>
           </li>
           <li>
             <a>ABOUT</a>
           </li>
-        </ul>
+        </ul> */}
       </div>
       <div className="navbar-end">
         <Link href={"https://pat.paediatrics.or.tz/"} target="_blank" className="font-semibold hover:underline">
