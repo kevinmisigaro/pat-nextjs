@@ -57,7 +57,7 @@ function Header() {
         </ul>
       </div>
       <div className="navbar-end">
-        <Link href={"http://127.0.0.1:8000"} className="font-semibold hover:underline">
+        <Link href={"https://pat.paediatrics.or.tz/"} className="font-semibold hover:underline">
           Register
         </Link>
       </div>

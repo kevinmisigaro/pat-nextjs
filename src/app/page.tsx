@@ -64,6 +64,43 @@ export default function Home() {
         </div>
       </div>
 
+      <div className="px-5 md:px-32 mt-20">
+        <div className="font-black text-2xl mb-5">
+          CONFERENCE PROGRAM AND AUDIENCE
+        </div>
+        <div className="text-xl text-justify">
+          The conference program will offer special keynote sessions, panel
+          discussions, round table deliberations, symposia on topics of
+          interest, abstract presentations, dialogues, research dissemination,
+          and exhibition platforms. Speakers will be experts from within and
+          beyond Tanzania and leaders in their fields of healthcare
+          specialization.
+          <br />
+          <br />
+          The Paediatric Association of Tanzania invites paediatricians,
+          policymakers, non-governmental partners, medical students and
+          paediatric trainees, scientists, researchers, paediatric nurses,
+          health educators, allied health experts, pharmacists, pharmaceutical
+          companies, and other stakeholders interested in improving health
+          outcomes for children to attend the conference. A total of over 300
+          participants are expected to attend the annual conference making it an
+          excellent opportunity for networking, experience sharing, and
+          showcasing research findings.
+        </div>
+        <div className="font-black text-2xl mt-10 mb-5">EXPECTED OUTCOMES</div>
+        <div className="text-xl text-justify">
+          It is expected that the Annual Scientific Conference will provide an
+          avenue for child health practitioners, researchers, and other
+          stakeholders to critically discuss the status of neonatal, child, and
+          adolescent health outcomes in Tanzania. Participants will be updated
+          with new developments in the field, recent innovations, trends, latest
+          research findings, pressing challenges and finally deliberate on
+          translating these to bedside clinical decisions, guidelines, and
+          policies that will improve health outcomes of children in Tanzania and
+          the wider East African Region.
+        </div>
+      </div>
+
       <div
         className="px-5 md:px-20 bg-right bg-contain bg-no-repeat"
         style={{
@@ -151,47 +188,94 @@ export default function Home() {
               </div>
             </DetailsCard>
 
-            <div
-      className="py-5 px-10 rounded-md w-full bg-gray-700 text-white"
-    >
-      
-      <h3 className="text-xl font-semibold mb-4">Rules for Submission of Abstracts</h3>
-      <p className="mb-2">
-        Abstracts must be submitted via this website link <a href="https://pat.paediatrics.or.tz/" className="text-blue-500">pat.paediatrics.or.tz</a>. Abstracts submitted via email will not be considered.
-      </p>
-      <p className="mb-2">
-        Please read the submission instructions before submitting an abstract.
-      </p>
-      <p className="mb-2">
-        The presenting author is required to ensure that all co-authors are aware of the contents of the abstract before submission.
-      </p>
-      <p className="mb-2">
-        All abstracts should be submitted and presented in English language.
-      </p>
-      <p className="mb-2">
-        Please note that the submitting author will receive all correspondence about the abstract, so we advise the submitting author’s details entered should be the same details as those of the presenting author.
-      </p>
-      <p className="mb-4">
-        You will receive a confirmation email once you have successfully submitted an abstract. Please contact us via phone number: xxxx if you experience any difficulties during submission.
-      </p>
-      <h3 className="text-xl font-semibold mt-10 mb-2">Submission Instructions</h3>
-      <p className="mb-2">
-        Before you begin the submission process, kindly review the following information:
-      </p>
-      <ul className="list-disc list-inside mb-4 ml-5">
-        <li>Abstract topic – abstracts must be allocated to the respective track and sub-themes.</li>
-        <li>Presenting author&apos;s contact details (E-mail address, mobile phone number)</li>
-        <li>Author and co-authors&apos; details (Full first and family name(s); Affiliation details: department, institution/hospital, city, country).</li>
-        <li>Abstract text – limited to 300 words; Format – Microsoft Word; Font – Arial 10 points; Paragraph line spacing – Single.</li>
-        <li>The abstract should not contain tables, figures, and references.</li>
-        <li>Abstract must be submitted with the following sections: Introduction, Objectives, Methodology, Results, and Conclusion.</li>
-        <li>Please indicate your preferred mode of (Oral or Poster) presentation in case your abstract is accepted. (Note that the committee will have the final decision on the mode of presentation)</li>
-      </ul>
-      <h3 className="text-xl font-semibold mt-10 mb-2">Abstract Selection and Presentation</h3>
-      <p className="mb-2">
-        The Scientific committee will review all submitted abstracts and will notify the submitting author regarding abstract acceptance status. If accepted, details of the presentation schedule will be sent to the submitting author.
-      </p>
-    </div>
+            <div className="py-5 px-10 rounded-md w-full bg-gray-700 text-white">
+              <h3 className="text-xl font-semibold mb-4">
+                Rules for Submission of Abstracts
+              </h3>
+              <p className="mb-2">
+                Abstracts must be submitted via this website link{" "}
+                <a
+                  href="https://pat.paediatrics.or.tz/"
+                  className="text-blue-500"
+                >
+                  pat.paediatrics.or.tz
+                </a>
+                . Abstracts submitted via email will not be considered.
+              </p>
+              <p className="mb-2">
+                Please read the submission instructions before submitting an
+                abstract.
+              </p>
+              <p className="mb-2">
+                The presenting author is required to ensure that all co-authors
+                are aware of the contents of the abstract before submission.
+              </p>
+              <p className="mb-2">
+                All abstracts should be submitted and presented in English
+                language.
+              </p>
+              <p className="mb-2">
+                Please note that the submitting author will receive all
+                correspondence about the abstract, so we advise the submitting
+                author’s details entered should be the same details as those of
+                the presenting author.
+              </p>
+              <p className="mb-4">
+                You will receive a confirmation email once you have successfully
+                submitted an abstract. Please contact us via phone number: xxxx
+                if you experience any difficulties during submission.
+              </p>
+              <h3 className="text-xl font-semibold mt-10 mb-2">
+                Submission Instructions
+              </h3>
+              <p className="mb-2">
+                Before you begin the submission process, kindly review the
+                following information:
+              </p>
+              <ul className="list-disc list-inside mb-4 ml-5">
+                <li>
+                  Abstract topic – abstracts must be allocated to the respective
+                  track and sub-themes.
+                </li>
+                <li>
+                  Presenting author&apos;s contact details (E-mail address,
+                  mobile phone number)
+                </li>
+                <li>
+                  Author and co-authors&apos; details (Full first and family
+                  name(s); Affiliation details: department,
+                  institution/hospital, city, country).
+                </li>
+                <li>
+                  Abstract text – limited to 300 words; Format – Microsoft Word;
+                  Font – Arial 10 points; Paragraph line spacing – Single.
+                </li>
+                <li>
+                  The abstract should not contain tables, figures, and
+                  references.
+                </li>
+                <li>
+                  Abstract must be submitted with the following sections:
+                  Introduction, Objectives, Methodology, Results, and
+                  Conclusion.
+                </li>
+                <li>
+                  Please indicate your preferred mode of (Oral or Poster)
+                  presentation in case your abstract is accepted. (Note that the
+                  committee will have the final decision on the mode of
+                  presentation)
+                </li>
+              </ul>
+              <h3 className="text-xl font-semibold mt-10 mb-2">
+                Abstract Selection and Presentation
+              </h3>
+              <p className="mb-2">
+                The Scientific committee will review all submitted abstracts and
+                will notify the submitting author regarding abstract acceptance
+                status. If accepted, details of the presentation schedule will
+                be sent to the submitting author.
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -217,7 +301,10 @@ export default function Home() {
             </div>
           </RegistrationCard>
 
-          <RegistrationCard title={"Students, nurses, allied health care workers"} bgColor="#dbca7b">
+          <RegistrationCard
+            title={"Students, nurses, allied health care workers"}
+            bgColor="#dbca7b"
+          >
             <div className="flex flex-col gap-y-2 items-center text-base">
               <p>Early Bird: TZS 80,000 </p>
               <p>Late/on-site: TZS 100,000</p>
