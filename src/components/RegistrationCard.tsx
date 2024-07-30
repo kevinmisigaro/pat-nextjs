@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { ReactNode } from "react";
 import { FaArrowRight } from "react-icons/fa6";
 
@@ -19,10 +20,10 @@ function RegistrationCard({
     >
       <div className="font-semibold text-xl text-center">{title}</div>
       <div className="py-2">{children}</div>
-      <button className="btn bg-black border-black hover:bg-black flex items-center gap-x-3 text-white">
+      <Link href={'https://pat.paediatrics.or.tz/'} className="btn bg-black border-black hover:bg-black flex items-center gap-x-3 text-white">
         <FaArrowRight />
         <p>Register Now</p>
-      </button>
+      </Link>
     </div>
   );
 }

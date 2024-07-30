@@ -3,6 +3,7 @@
 import Countdown from "@/components/Countdown";
 import DetailsCard from "@/components/DetailsCard";
 import RegistrationCard from "@/components/RegistrationCard";
+import Link from "next/link";
 import { FaLocationDot, FaCalendarDays, FaCheck } from "react-icons/fa6";
 import { FaAnglesRight } from "react-icons/fa6";
 
@@ -30,10 +31,10 @@ export default function Home() {
               THEME: Foundation of life: improving health outcomes in children
             </p>
             <div className="flex items-center gap-x-5 justify-center mt-10">
-              <button className="btn btn-primary">FIND OUT MORE</button>
-              <button className="btn bg-[#f29719] border-[#f29719] hover:border-[#f29719] hover:text-[#f29719]">
+              {/* <button className="btn btn-primary">FIND OUT MORE</button> */}
+              <Link href={'https://pat.paediatrics.or.tz/'} className="btn bg-[#f29719] border-[#f29719] hover:border-[#f29719] hover:text-[#f29719]">
                 <FaAnglesRight /> REGISTER NOW
-              </button>
+              </Link>
             </div>
           </div>
         </div>
