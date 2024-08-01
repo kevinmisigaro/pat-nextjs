@@ -312,7 +312,7 @@ export default function Home() {
             </div>
           </RegistrationCard>
 
-          <RegistrationCard title="International Delegates" bgColor="#fabebf">
+          <RegistrationCard title="International Delegates & Non PAT Members" bgColor="#fabebf">
             <div className="flex flex-col gap-y-2 items-center text-base">
               <p>Early Bird: 200,000 </p>
               <p>Late/on-site: 250,000</p>
