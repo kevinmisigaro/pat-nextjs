@@ -39,16 +39,16 @@ function Countdown({ targetDate }: CountdownProps) {
       });
 
   return (
-    <div className="grid grid-flow-col gap-x-10 text-center auto-cols-max">
-    <div className="flex flex-col items-center w-32 p-6 bg-[#0f4c15] rounded-box text-white">
+    <div className="grid grid-flow-col gap-x-1 md:gap-x-10 text-center auto-cols-max">
+    <div className="flex flex-col items-center w-20 md:w-32 p-6 bg-[#0f4c15] rounded-box text-white">
       <span className="countdown font-mono text-5xl">{timeLeft.days}</span>
       days
     </div>
-    <div className="flex flex-col items-center w-32 p-6 bg-[#0f4c15] rounded-box text-white">
+    <div className="flex flex-col items-center w-20 md:w-32 p-6 bg-[#0f4c15] rounded-box text-white">
       <span className="countdown font-mono text-5xl">{timeLeft.hours}</span>
      <span> hours</span>
     </div>
-    <div className="flex flex-col items-center w-32 p-6 bg-[#0f4c15] rounded-box text-white">
+    <div className="flex flex-col items-center w-20 md:w-32 p-6 bg-[#0f4c15] rounded-box text-white">
       <span className="countdown font-mono text-5xl">{timeLeft.minutes}</span>
       min
     </div>

@@ -103,14 +103,11 @@ export default function Home() {
       </div>
 
       <div
-        className="px-5 md:px-20 bg-right bg-contain bg-no-repeat"
-        style={{
-          backgroundImage: "url('/images/female-doc-left.png')",
-        }}
+        className="px-5 md:px-20 bg-right bg-contain bg-no-repeat md:bg-[url('/images/female-doc-left.png')]"
       >
         <div className="flex items-stretch">
-          <div className="py-20 basis-2/3 px-10">
-            <div className="font-black text-5xl mb-10">
+          <div className="py-20 basis-2/3 px-3 md:px-10">
+            <div className="font-black text-3xl md:text-5xl mb-10">
               Secure your spot & <br /> mark the date!
             </div>
             <div className="text-xl">
@@ -128,8 +125,7 @@ export default function Home() {
               FIND OUT MORE
             </div>
           </div>
-          <div className="basis-1/3 bg">
-            {/* <img src="/images/female-doc-left.png" className="w-full" /> */}
+          <div className="basis-1/3">
           </div>
         </div>
       </div>
@@ -138,9 +134,9 @@ export default function Home() {
         <div className="py-20">
           <h3 className="text-center font-bold text-2xl">CONFERENCE DETAILS</h3>
 
-          <div className="flex flex-col gap-y-10 justify-center my-10 mx-32">
+          <div className="flex flex-col gap-y-10 justify-center my-10 mx-10 md:mx-32">
             <DetailsCard title="THEME" txtColor="black" bgColor="#ffdfca">
-              <h4 className="text-xl font-semibold uppercase">
+              <h4 className="text-xl font-semibold uppercase md:text-left text-center">
                 Foundation of life: improving health outcomes in children
               </h4>
             </DetailsCard>
