@@ -285,16 +285,16 @@ export default function Home() {
           Early bird registration ends{" "}
           <span className="underline">30th September 2024 </span> <br />
           Regular registration ends{" "}
-          <span className="underline">30th September 2024</span> <br />
+          <span className="underline">16th October 2024</span> <br />
           0n-site registration starts{" "}
-          <span className="underline">1st October 2024 </span>
+          <span className="underline">17th October 2024 </span>
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 place-items-center gap-10 items-center justify-center mt-10">
           <RegistrationCard title="PAT Members" bgColor="#81dd8d">
             <div className="flex flex-col gap-y-2 items-center text-base">
               <p>Early Bird: TZS 120,000 </p>
-              <p>On-site: TZS 150,000</p>
+              <p>Regular: TZS 150,000</p>
             </div>
           </RegistrationCard>
 
@@ -304,21 +304,21 @@ export default function Home() {
           >
             <div className="flex flex-col gap-y-2 items-center text-base">
               <p>Early Bird: TZS 80,000 </p>
-              <p>On-site: TZS 100,000</p>
+              <p>Regular: TZS 100,000</p>
             </div>
           </RegistrationCard>
 
           <RegistrationCard title="International Delegates & Non PAT Members" bgColor="#fabebf">
             <div className="flex flex-col gap-y-2 items-center text-base">
               <p>Early Bird: 200,000 </p>
-              <p>On-site: 250,000</p>
+              <p>Regular: 250,000</p>
             </div>
           </RegistrationCard>
 
           <RegistrationCard title="Associate Members" bgColor="#81dd8d">
             <div className="flex flex-col gap-y-2 items-center text-base">
               <p>Early Bird: 50,000 </p>
-              <p>On-site: 80,000</p>
+              <p>Regular: 80,000</p>
             </div>
           </RegistrationCard>
         </div>
