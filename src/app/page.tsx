@@ -51,7 +51,7 @@ export default function Home() {
           <div className="basis-1/3 flex flex-col gap-y-2 items-center justify-center">
             <FaCalendarDays className="text-6xl" />
             <div className="font-bold text-2xl text-center">
-              1<sup>st</sup> July - 15<sup>th</sup> September
+              1<sup>st</sup> July - 30<sup>th</sup> September
             </div>
             <div className="text-base">Early Bird Date</div>
           </div>
@@ -283,10 +283,10 @@ export default function Home() {
         </div>
         <p className="my-5 text-center">
           Early bird registration ends{" "}
-          <span className="underline">15th September 2024 </span> <br />
+          <span className="underline">30th September 2024 </span> <br />
           Regular registration ends{" "}
           <span className="underline">30th September 2024</span> <br />
-          Late/on-site registration starts{" "}
+          0n-site registration starts{" "}
           <span className="underline">1st October 2024 </span>
         </p>
 
@@ -294,7 +294,7 @@ export default function Home() {
           <RegistrationCard title="PAT Members" bgColor="#81dd8d">
             <div className="flex flex-col gap-y-2 items-center text-base">
               <p>Early Bird: TZS 120,000 </p>
-              <p>Late/on-site: TZS 150,000</p>
+              <p>On-site: TZS 150,000</p>
             </div>
           </RegistrationCard>
 
@@ -304,21 +304,21 @@ export default function Home() {
           >
             <div className="flex flex-col gap-y-2 items-center text-base">
               <p>Early Bird: TZS 80,000 </p>
-              <p>Late/on-site: TZS 100,000</p>
+              <p>On-site: TZS 100,000</p>
             </div>
           </RegistrationCard>
 
           <RegistrationCard title="International Delegates & Non PAT Members" bgColor="#fabebf">
             <div className="flex flex-col gap-y-2 items-center text-base">
               <p>Early Bird: 200,000 </p>
-              <p>Late/on-site: 250,000</p>
+              <p>On-site: 250,000</p>
             </div>
           </RegistrationCard>
 
           <RegistrationCard title="Associate Members" bgColor="#81dd8d">
             <div className="flex flex-col gap-y-2 items-center text-base">
               <p>Early Bird: 50,000 </p>
-              <p>Late/on-site: 80,000</p>
+              <p>On-site: 80,000</p>
             </div>
           </RegistrationCard>
         </div>
