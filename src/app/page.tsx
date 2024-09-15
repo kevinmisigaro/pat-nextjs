@@ -286,8 +286,8 @@ export default function Home() {
           <span className="underline">30th September 2024 </span> <br />
           Regular registration ends{" "}
           <span className="underline">16th October 2024</span> <br />
-          0n-site registration starts{" "}
-          <span className="underline">17th October 2024 </span>
+          {/* 0n-site registration starts{" "}
+          <span className="underline">17th October 2024 </span> */}
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 place-items-center gap-10 items-center justify-center mt-10">
