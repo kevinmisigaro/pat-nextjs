@@ -51,7 +51,7 @@ export default function Home() {
           <div className="basis-1/3 flex flex-col gap-y-2 items-center justify-center">
             <FaCalendarDays className="text-6xl" />
             <div className="font-bold text-2xl text-center">
-              1<sup>st</sup> July - 30<sup>th</sup> September
+              1<sup>st</sup> July - 15<sup>th</sup> September
             </div>
             <div className="text-base">Early Bird Date</div>
           </div>
@@ -214,7 +214,7 @@ export default function Home() {
               <p className="mb-2">
                 Please note that the submitting author will receive all
                 correspondence about the abstract, so we advise the submitting
-                author’s details entered should be the same details as those of
+                author&apos;s details entered should be the same details as those of
                 the presenting author.
               </p>
               <p className="mb-4">
